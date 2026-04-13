@@ -1,3 +1,11 @@
+#git => version control system
+#install git
+#git config --global user.name "Shirish Karna"
+#git config --global user.email "shirishkarna8448@gmail.com"
+# git init
+#git status => if you want to check what are the status of files
+#git add . # track files in current directory
+#git commit -m "you message/what you did"
 import requests
 from bs4 import BeautifulSoup 
 
