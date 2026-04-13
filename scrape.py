@@ -1,3 +1,7 @@
+#python -m pip install requests
+# => get data from web (html,json,xml)
+# python -m pip install beautifulsoup4
+# parse html 
 #git => version control system
 #install git
 #git config --global user.name "Shirish Karna"
@@ -6,6 +10,10 @@
 #git status => if you want to check what are the status of files
 #git add . # track files in current directory
 #git commit -m "you message/what you did"
+# create repository in github
+# copy paste git code from github
+
+
 import json
 import requests
 from bs4 import BeautifulSoup 
