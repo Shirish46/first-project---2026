@@ -6,6 +6,7 @@
 #git status => if you want to check what are the status of files
 #git add . # track files in current directory
 #git commit -m "you message/what you did"
+import json
 import requests
 from bs4 import BeautifulSoup 
 
@@ -45,8 +46,6 @@ books = scrape_books(url)
 
 with open("books.json","w") as f:
     import json
-
-
     json.dump(books,f,indent=4,ensure_ascii=False)   # ensure_ascii=False because the currency was not being shown in GBP
         
         
